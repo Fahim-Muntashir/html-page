@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Guide</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Exercise Guide</h1>
+
+      <!-- Swimming -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/622003802/photo/fit-swimmer-training-in-the-pool.jpg?s=612x612&w=0&k=20&c=iVJw5ofxTcqYuZ2oliYr8OMoW2FoJFr8B7S28HYUXsg="
+              alt="Swimming"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Swimming</h3>
+              <p class="card-text">Calories per hour: 500-700</p>
+              <p class="card-text">Recommended hours per day: 1 hour</p>
+              <p class="card-text">
+                Effect for body: Improves cardiovascular health, tones muscles,
+                and enhances flexibility.
+              </p>
+              <p class="card-text">
+                Other info: Swimming is a low-impact exercise suitable for all
+                ages.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="https://www.mayoclinichealthsystem.org/-/media/national-files/images/hometown-health/2024/person-holding-a-plank-pose.jpg?sc_lang=en"
+              alt="Exercise Name"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Exercise Name</h3>
+              <p class="card-text">Calories per hour: XXX</p>
+              <p class="card-text">Recommended hours per day: X hours</p>
+              <p class="card-text">
+                Effect for body: Description of the effect for the body.
+              </p>
+              <p class="card-text">
+                Other info: Additional information about the exercise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Contact Form -->
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title text-center mb-4">Have a Question?</h2>
+              <form action="submit.php" method="post">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
